@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mushtaq | Photography Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Glow -->
+  <div class="bg-glow"></div>
+  <!-- Navbar -->
+  <nav class="nav glass">
+    <div class="brand">Mushtaq</div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="main">
+
+  <!-- Page loader -->
+  <div id="page-loader" aria-hidden>
+    <div class="loader-dot"></div>
+    <div class="loader-dot"></div>
+    <div class="loader-dot"></div>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="glass hero-box float">
+      <div class="chip">Photography</div>
+      <h2>Capturing moments<br>before they disappear</h2>
+      <p>Food • Commercial • Editorial</p>
+      <div class="hero-actions">
+        <a class="btn" href="#work">View Work</a>
+        <a class="btn secondary" href="#contact">Get In Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="glass about-box float">
+      <img class="about-photo" src="profile.jpg" alt="Mushtaq">
+      <h3>About Mushtaq</h3>
+      <p>
+        Mushtaq is a visual storyteller who believes a photograph should be felt before it is understood. His work moves effortlessly across events, products, fashion, and wildlife, guided by patience, precision, and emotion. Whether capturing human connection or untamed nature, he searches for authenticity in every frame. For him, photography is not about perfection—it’s about presence.
+      </p>
+    </div>
+  </section> 
+
+  <!-- Work -->
+  <section id="work" class="section">
+    <h3>Works</h3>
+    <p class="section-lead">Selected work across genres.</p>
+
+    <div class="grid">
+
+      <!-- Card -->
+      <div class="card">
+        <a href="https://www.instagram.com/p/DUF8XQpktbR/?img_index=1" target="_blank" rel="noopener noreferrer" style="display:block;width:100%;height:100%;">
+          <img src="events.jpg" />
+        </a>
+        <div class="overlay">
+          <div class="card-title">Food</div>
+          <div class="card-sub">cuisine, meals, dishes</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <a href="https://www.instagram.com/p/DP5q9JLEghm/?img_index=1" target="_blank" rel="noopener noreferrer" style="display:block;width:100%;height:100%;">
+          <img src="product.jpg" />
+        </a>
+        <div class="overlay">
+          <div class="card-title">Product</div>
+          <div class="card-sub">Minimal, clean, sharp</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <a href="https://www.instagram.com/p/DT_DqApE89Q/?img_index=1" target="_blank" rel="noopener noreferrer" style="display:block;width:100%;height:100%;">
+          <img src="modeling.jpg" />
+        </a>
+        <div class="overlay">
+          <div class="card-title">Fashion Editorial</div>
+          <div class="card-sub">Portraits & fashion</div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Portfolio Instagram quick link -->
+    <div style="position:relative; max-width:1200px; margin: 18px auto 0; padding:0 2%;">
+      <p style="text-align:center; color:var(--muted); margin-bottom:8px;">See more works on Behance:</p>
+      <div style="text-align:center;"><a id="portfolio-behance" class="btn" href="https://www.behance.net/shakeelmushtaq" target="_blank" rel="noopener noreferrer"><svg class="icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden><path d="M3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9S3 17 3 12zm6.5-2.5h2.5c1.4 0 2.5 1.1 2.5 2.5s-1.1 2.5-2.5 2.5H9.5V9.5zm5.5 0h-1.5v5h1.5c1.1 0 2-.9 2-2s-.9-3-2-3z"/></svg> Behance</a></div>
+    </div>
+
+  </section>
+
+  <!-- (removed duplicate About section) -->
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="glass contact-box">
+      <h3>Contact</h3>
+      <p class="section-lead">Prefer socials? Contact instantly.</p>
+
+      <div class="contact-grid">
+        <div class="contact-card" style="text-align:center;">
+          <div class="contact-actions" style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
+            <a id="contact-instagram" class="btn" href="https://instagram.com/_mushtaq_1141__" target="_blank" rel="noopener noreferrer">
+              <svg class="icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm5 6.5A4.5 4.5 0 1 0 16.5 13 4.5 4.5 0 0 0 12 8.5zm5.2-3.7a1.08 1.08 0 1 0 1.08 1.08A1.08 1.08 0 0 0 17.2 4.8z"/></svg>
+              Instagram
+            </a>
+
+            <a id="contact-whatsapp" class="btn" href="https://wa.me/+916374951141" target="_blank" rel="noopener noreferrer">
+              <svg class="icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M20.52 3.48A11.94 11.94 0 0 0 12 .5 11.94 11.94 0 0 0 3.48 3.48 11.77 11.77 0 0 0 .5 12c0 2.11.55 4.16 1.6 5.98L.5 23.5l5.8-1.56A11.77 11.77 0 0 0 12 23.5c2.11 0 4.16-.55 5.98-1.6A11.94 11.94 0 0 0 23.5 12 11.94 11.94 0 0 0 20.52 3.48zM12 20a8 8 0 0 1-4.3-1.2l-.31-.18L5 19l1.6-2.3-.18-.31A8 8 0 1 1 12 20z"/></svg>
+              WhatsApp
+            </a>
+
+            <a id="contact-linkedin" class="btn" href="https://www.linkedin.com/in/yourname" target="_blank" rel="noopener noreferrer">
+              <svg class="icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.27c-.97 0-1.75-.79-1.75-1.75s.78-1.75 1.75-1.75 1.75.78 1.75 1.75-.79 1.75-1.75 1.75zm13.5 11.27h-3v-5.5c0-1.31-.02-2.99-1.82-2.99-1.82 0-2.1 1.42-2.1 2.89v5.6h-3v-10h2.88v1.36h.04c.4-.76 1.38-1.56 2.85-1.56 3.05 0 3.61 2.01 3.61 4.63v5.57z"/></svg>
+              LinkedIn
+            </a>
+
+            <a id="contact-location" class="btn" href="https://www.google.com/maps/search/?api=1&query=Bangalore%2C+Karnataka%2C+India" target="_blank" rel="noopener noreferrer">
+              <svg class="icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>
+              Bangalore, Karnataka, India
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Decorative illustrations (SVG blobs) -->
+  <svg class="illu illu-1" width="420" height="420" viewBox="0 0 420 420" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+    <defs>
+      <linearGradient id="g1" x1="0" x2="1">
+        <stop offset="0" stop-color="#5b8def" stop-opacity="0.18" />
+        <stop offset="1" stop-color="#8bd3ff" stop-opacity="0.08" />
+      </linearGradient>
+    </defs>
+    <circle cx="210" cy="210" r="180" fill="url(#g1)" />
+  </svg>
+
+  <svg class="illu illu-2" width="260" height="260" viewBox="0 0 260 260" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+    <circle cx="130" cy="130" r="120" fill="rgba(139,211,255,0.06)" />
+  </svg>
+
+  
+
+  </main>
+
+  <footer>
+    <p>© 2026 Mushtaq Photography</p>
+  </footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const main = document.querySelector('.main');
+  const loader = document.getElementById('page-loader');
+
+  function showLoader(ms) {
+    if (!loader) return Promise.resolve();
+    loader.classList.add('show');
+    return new Promise((resolve) => setTimeout(function () { loader.classList.remove('show'); resolve(); }, ms || 420));
+  }
+
+  // When nav links or hero buttons are clicked, show loader then smooth-scroll
+  document.querySelectorAll('.nav a, .hero-actions a').forEach(function (a) {
+    a.addEventListener('click', function (e) {
+      const href = a.getAttribute('href');
+      if (!href || href.charAt(0) !== '#') return; // allow external links
+      const target = document.querySelector(href);
+      if (!target) return;
+      e.preventDefault();
+      main.classList.add('exiting');
+      showLoader(300).then(function () {
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        setTimeout(function () { main.classList.remove('exiting'); }, 450);
+      });
+    });
+  });
+
+});
+</script>
+
+</body>
+</html>
